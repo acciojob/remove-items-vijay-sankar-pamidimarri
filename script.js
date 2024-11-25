@@ -2,9 +2,9 @@
 let arr=document.getElementById("colorSelect");
 document.querySelector("input").addEventListener('click',()=>{   
     let val=document.querySelector("#colorSelect").value;
-     for(let i=0;i<val.length;i++){
+     for(let i=0;i<arr.length;i++){
 		 if(arr[i].value===val){
-			 arr.remove(i);
+			 arr.remove(i); 
 		 }
 	 }
 })
